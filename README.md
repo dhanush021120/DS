@@ -622,5 +622,124 @@ Key element is present in BST BST MENU1.Create a BST 2.Search 3.BST Traversals: 
 The Preorder display : 1 2 3 4 5 The Inorder display : 1 2 3 4 5 The Postorder display : 5 4 3 2 1
 
 BST MENU 1.Create a BST 2.Search 3.BST Traversals: 4.Exit Enter your choice: 4
+------------------OUTPUT EX 6------------------
+OUTPUT:
+Preorder traversal of the constructed AVL tree is 5 0 -1 1 2 9 6 10 11
 
+Preorder traversal after deletion of 10 5 0 -1 1 2 9 6 11
+------------------OUTPUT EX 7(a)------------------
+Graph:
 
+Adjacency list of vertex 0 1 -> 2 ->
+
+Adjacency list of vertex 1 0 -> 2 -> 3 ->
+
+Adjacency list of vertex 2 0 -> 1 -> 3 ->
+
+Adjacency list of vertex 3 1 -> 2 ->
+
+BFS Traversal starting from vertex 0: Visited 0
+Visited 1
+Visited 2
+Visited 3
+------------------OUTPUT EX 7(b)------------------
+Graph:
+Adjacency list of vertex 0 2 -> 1 ->
+
+Adjacency list of vertex 1 3 -> 2 -> 0 ->
+
+Adjacency list of vertex 2 3 -> 1 -> 0 ->
+
+Adjacency list of vertex 3 2 -> 1 ->
+
+DFS Traversal starting from vertex 0: Visited 0
+Visited 1
+Visited 3
+Visited 2
+------------------OUTPUT EX 8------------------
+Enter the number of vertices: 5
+Enter the cost adjacency matrix (enter 999 for no direct path): 0 10 5 999 999
+999 0 2 1 999
+999 3 0 9 2
+4 999 999 0 7
+999 999 999 6 0
+Enter the source vertex (starting from 0): 0 The output will be
+Shortest Paths from Source Vertex 0:
+Path to vertex 1: Cost = 8 | Path = 1 <- 0
+Path to vertex 2: Cost = 5 | Path = 2 <- 0
+Path to vertex 3: Cost = 9 | Path = 1 <- 3 <- 0
+Path to vertex 4: Cost = 11 | Path = 2 <- 5 <- 4 <- 0
+------------------OUTPUT EX 9------------------
+Enter the size of the queue: 5 Menu
+1.	Insert
+2.	Delete
+3.	Display
+4.	Exit
+Enter your choice: 1
+Enter the element to insert: 12
+Menu
+1.	Insert
+2.	Delete
+3.	Display
+4.	Exit
+Enter your choice: 1
+Enter the element to insert: 25
+
+Menu
+1.	Insert
+2.	Delete
+3.	Display
+4.	Exit
+Enter your choice: 1
+Enter the element to insert: 8
+
+Menu
+1.	Insert
+2.	Delete
+3.	Display
+4.	Exit
+Enter your choice: 3 Elements in the heap: 8 12 25
+
+Menu
+1.	Insert
+2.	Delete
+3.	Display
+4.	Exit
+Enter your choice: 2 The deleted element is 8
+
+Menu
+1.	Insert
+2.	Delete
+3.  Display
+4.  Exit
+Enter your choice: 4
+Exiting...
+------------------OUTPUT EX 10(a)------------------
+    -- Linear Search --
+For the array arr = {12, 45, 67, 23, 56, 89, 9, 43} and searching for element 56: Enter the element to search: 56
+Element 56 found at position 5.
+For the array arr = {12, 45, 67, 23, 56, 89, 9, 43} and searching for element 100: Enter the element to search: 100
+Element 100 not found in the array.
+
+------------------OUTPUT EX 10(b)------------------
+Enter the number of elements: 5 Enter 5 numbers in ascending order:
+a[0] = 2
+a[1] = 3
+a[2] = 4
+a[3] = 10
+a[4] = 40
+Enter the search element: 10 Element 10 found at index 3.
+
+------------------OUTPUT EX 10(c)------------------
+Enter the five elements to sort:
+5 4 3 2 1
+Elements after sorting:
+1
+2
+3
+4
+5
+
+------------------OUTPUT EX 10(d)------------------
+Original array: 127111356
+Sorted array: 567111213
