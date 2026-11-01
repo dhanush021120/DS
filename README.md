@@ -818,3 +818,31 @@ Student ARUN got maximum marks = 98 in Subject : 1
 Student ARUN got maximum marks = 67 in Subject : 2
  
 ARUN obtained the total highest marks.
+==============content beyond the sylabus =============== ------------------cbs-1------------------------------ postfix evaluation: -4
+
+-------------------cbs-2--------------------------------
+
+Producer
+Consumer
+Display
+Exit Enter your choice: 1 Enter the piece of data: 3
+Producer
+Consumer
+Display
+Exit Enter your choice: 1 Enter the piece of data: 5
+Producer
+Consumer
+Display
+ExitEnter your choice: 3 The data are 3 5
+Producer
+Consumer
+Display
+Exit Enter your choice: 2 The consumed data is=3
+Producer
+Consumer
+Display
+Exit Enter your choice: 3 The data are 5
+Producer
+Consumer
+Display
+Exit Enter your choice: 4 Exit =============== Mini Project ============= ------------Library Management System ------- OUTPUT: --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 1 Enter Book ID: 101 Enter Title: C Programming Enter Author: Dennis Ritchie Book added successfully! --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 1 Enter Book ID: 102 Enter Title: Data Structures Enter Author: Seymour Lipschutz Book added successfully! --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 4 Enter Book ID to issue: 101 Book issued successfully! --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 2 ID Title Author Status 101 C Programming Dennis Ritchie Issued 102 Data Structures Seymour Lipschutz Available --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 3 Enter Book ID to search: 102 Found: Data Structures by Seymour Lipschutz [Available] --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 5 Enter Book ID to return: 101 Book returned successfully! --- LIBRARY MANAGEMENT SYSTEM --- 1.Add Book 2.Display 3.Search 4.Issue Book 5.Return Book 6.Exit Enter your choice: 6 Thank you!
